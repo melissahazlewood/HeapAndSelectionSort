@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72630A46238D09BD00D7455F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72630A45238D09BD00D7455F /* main.cpp */; };
+		72630A46238D09BD00D7455F /* CECS328Lab5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72630A45238D09BD00D7455F /* CECS328Lab5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		72630A42238D09BC00D7455F /* CECS328Lab5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CECS328Lab5; sourceTree = BUILT_PRODUCTS_DIR; };
-		72630A45238D09BD00D7455F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		72630A42238D09BC00D7455F /* Lab5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab5; sourceTree = BUILT_PRODUCTS_DIR; };
+		72630A45238D09BD00D7455F /* CECS328Lab5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CECS328Lab5.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		72630A39238D09BC00D7455F = {
 			isa = PBXGroup;
 			children = (
-				72630A44238D09BC00D7455F /* CECS328Lab5 */,
+				72630A44238D09BC00D7455F /* Lab5 */,
 				72630A43238D09BC00D7455F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		72630A43238D09BC00D7455F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72630A42238D09BC00D7455F /* CECS328Lab5 */,
+				72630A42238D09BC00D7455F /* Lab5 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72630A44238D09BC00D7455F /* CECS328Lab5 */ = {
+		72630A44238D09BC00D7455F /* Lab5 */ = {
 			isa = PBXGroup;
 			children = (
-				72630A45238D09BD00D7455F /* main.cpp */,
+				72630A45238D09BD00D7455F /* CECS328Lab5.cpp */,
 			);
-			path = CECS328Lab5;
+			path = Lab5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72630A41238D09BC00D7455F /* CECS328Lab5 */ = {
+		72630A41238D09BC00D7455F /* Lab5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72630A49238D09BD00D7455F /* Build configuration list for PBXNativeTarget "CECS328Lab5" */;
+			buildConfigurationList = 72630A49238D09BD00D7455F /* Build configuration list for PBXNativeTarget "Lab5" */;
 			buildPhases = (
 				72630A3E238D09BC00D7455F /* Sources */,
 				72630A3F238D09BC00D7455F /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = CECS328Lab5;
+			name = Lab5;
 			productName = CECS328Lab5;
-			productReference = 72630A42238D09BC00D7455F /* CECS328Lab5 */;
+			productReference = 72630A42238D09BC00D7455F /* Lab5 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72630A3D238D09BC00D7455F /* Build configuration list for PBXProject "CECS328Lab5" */;
+			buildConfigurationList = 72630A3D238D09BC00D7455F /* Build configuration list for PBXProject "Lab5" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72630A41238D09BC00D7455F /* CECS328Lab5 */,
+				72630A41238D09BC00D7455F /* Lab5 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72630A46238D09BD00D7455F /* main.cpp in Sources */,
+				72630A46238D09BD00D7455F /* CECS328Lab5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +258,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72630A3D238D09BC00D7455F /* Build configuration list for PBXProject "CECS328Lab5" */ = {
+		72630A3D238D09BC00D7455F /* Build configuration list for PBXProject "Lab5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72630A47238D09BD00D7455F /* Debug */,
@@ -267,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72630A49238D09BD00D7455F /* Build configuration list for PBXNativeTarget "CECS328Lab5" */ = {
+		72630A49238D09BD00D7455F /* Build configuration list for PBXNativeTarget "Lab5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72630A4A238D09BD00D7455F /* Debug */,
